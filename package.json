@@ -1,0 +1,21 @@
+{
+  "name": "mimosa-backbone-topcoat",
+  "version": "0.0.1",
+  "homepage": "",
+  "author": "M Fazle Taher",
+  "description": "",
+  "contributors": [
+    {
+      "name": "M Fazle Taher",
+      "email": "ftaher@gmail.com"
+    }
+  ],
+  "private": true,
+  "dependencies": {
+    "express": "3.3.4",
+    "coffee-script": "1.6.3",
+    "consolidate": "0.9.1",
+    "hogan.js": "2.0.0",
+    "topcoat": "~>0.7.5"
+  }
+}

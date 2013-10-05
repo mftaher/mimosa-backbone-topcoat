@@ -1,0 +1,10 @@
+{
+  "name": "mimosa-backbone",
+  "version": "0.1.0",
+  "dependencies": {
+    "jquery": "2.0.3",
+    "requirejs": "2.1.8",
+    "backbone": "~1.0.0",
+    "topcoat": "~0.7.5"
+  }
+}
