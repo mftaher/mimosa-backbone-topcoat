@@ -3,15 +3,15 @@ require
   paths:
     underscore: 'vendor/underscore'
     backbone: 'vendor/backbone/backbone'
-    jquery: 'vendor/jquery/jquery'    
+    jquery: 'vendor/jquery/jquery'
   shim:
     underscore:
       deps: []
       exports: '_'
     backbone:
-      deps: ['underscore']
+      deps: ['underscore', 'jquery']
       exports: 'Backbone'
-  , ['app/routes']    
+  , ['app/routes']
   , (AppRouter) ->
       router = new AppRouter pushState: false
       router.start()
