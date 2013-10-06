@@ -1,9 +1,10 @@
-define ['jquery', 'underscore', 'backbone', 'templates'], ($, _, Backbone, templates) ->
+define ['backbone', 'templates'],
+(Backbone, templates) ->
 
   class BoxView extends Backbone.View
 
-    initialize: -> 
-      this.template = templates.box
+    initialize: ->
+      @template = templates.box
 
     render: ->
-      $(@el).append this.template({name:'Underscore'})
+      @$el.append @template({name:'Underscore'})
