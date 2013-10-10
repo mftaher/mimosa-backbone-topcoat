@@ -1,13 +1,13 @@
-define ['jquery', 'underscore', 'backbone', 'app/views/index-view'], ($, _, Backbone, IndexView) ->
-  
+define ['backbone', 'app/views/index-view'], (Backbone, IndexView) ->
+
   class AppRouter extends Backbone.Router
-    
+
     routes:
       "" : "index"
+
     start: ->
       Backbone.history.start()
-      
-    index: -> 
+
+    index: ->
       view = new IndexView()
       view.render()
-    
