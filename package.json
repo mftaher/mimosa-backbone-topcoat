@@ -1,13 +1,13 @@
 {
-  "name": "mimosa-backbone-topcoat",
+  "name": "app-name",
   "version": "0.0.1",
   "homepage": "",
-  "author": "M Fazle Taher",
+  "author": "",
   "description": "",
   "contributors": [
     {
-      "name": "M Fazle Taher",
-      "email": "ftaher@gmail.com"
+      "name": "",
+      "email": ""
     }
   ],
   "private": true,
